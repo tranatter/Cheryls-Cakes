@@ -131,12 +131,12 @@ footer {
 }
 .review-card {
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
     background: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 50px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -146,23 +146,23 @@ footer {
 }
 
 .review-card img {
-    width: 80px;
-    height: 80px;
-    border: 3px solid #007bff;
+    width: 74px;
+    height: 75px;
+    border: 3px solid #ff9500;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .review-card .card-title {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .review-card .card-text {
-    font-size: 16px;
+    font-size: 13px;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .text-warning {
@@ -210,4 +210,78 @@ footer {
     .img_card {
         border: 1px blue solid;
     }
+}
+#order {
+    background-color: #fff3f3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+#order h2 {
+    color: #e97199;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #ff69b4;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff1493;
+}
+
+.fancy-header {
+    font-family: 'Georgia', serif; /* Fancy font */
+    font-size: 2.5rem; /* Larger font size */
+    color: #4b2c76; /* Custom color */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Space above and below the header */
+    letter-spacing: 2px; /* Spacing between letters */
+    text-transform: uppercase; /* Convert text to uppercase */
+    position: relative; /* For decorative elements */
+}
+
+.fancy-header::before,
+.fancy-header::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #e5c1f1; /* Decorative line color */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fancy-header::before {
+    left: 0;
+}
+
+.fancy-header::after {
+    right: 0;
 }
