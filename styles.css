@@ -184,7 +184,7 @@ footer {
 
 .owl-nav .owl-prev, .owl-nav .owl-next {
     background: #007bff;
-    color: #fff;
+    color: #000000;
     border-radius: 50%;
     font-size: 24px;
 }
