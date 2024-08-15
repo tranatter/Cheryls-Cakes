@@ -246,7 +246,7 @@ form input, form select, form textarea {
 form button {
     padding: 10px 20px;
     background-color: #ff69b4;
-    color: white;
+    color: rgb(240, 18, 18);
     border: none;
     border-radius: 5px;
     cursor: pointer;
